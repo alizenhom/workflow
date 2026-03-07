@@ -1,10 +1,19 @@
 {
-  "lastUpdated": "2026-03-06T17:10:32.428Z",
-  "commit": "dff00c94008f60cbfb4a398f2b98101d80ee8377",
+  "lastUpdated": "2026-03-07T17:37:59.032Z",
+  "commit": "5e4ef657cf34c04d6d12b9823fb7fca8885c2f90",
   "branch": "main",
   "type": "e2e",
   "worlds": {
     "mongodb": {
+      "status": "partial",
+      "total": 61,
+      "passed": 53,
+      "failed": 3,
+      "skipped": 5,
+      "frameworks": {},
+      "progress": 87
+    },
+    "redis": {
       "status": "partial",
       "total": 61,
       "passed": 54,
@@ -12,15 +21,6 @@
       "skipped": 5,
       "frameworks": {},
       "progress": 89
-    },
-    "redis": {
-      "status": "partial",
-      "total": 61,
-      "passed": 55,
-      "failed": 1,
-      "skipped": 5,
-      "frameworks": {},
-      "progress": 90
     },
     "turso": {
       "status": "partial",
@@ -92,11 +92,11 @@
       "progress": 88
     },
     "postgres": {
-      "status": "partial",
-      "total": 728,
-      "passed": 634,
-      "failed": 1,
-      "skipped": 93,
+      "status": "passing",
+      "total": 672,
+      "passed": 588,
+      "failed": 0,
+      "skipped": 84,
       "frameworks": {
         "astro": {
           "total": 56,
@@ -110,8 +110,8 @@
         },
         "fastify": {
           "total": 56,
-          "passed": 46,
-          "failed": 1
+          "passed": 47,
+          "failed": 0
         },
         "hono": {
           "total": 56,
@@ -149,7 +149,7 @@
           "failed": 0
         }
       },
-      "progress": 87
+      "progress": 88
     }
   }
 }
